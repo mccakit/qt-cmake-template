@@ -12,5 +12,12 @@ C:\Qt\6.9.1\android_arm64_v8a\bin\qt-cmake.bat `
 -DANDROID_SDK_ROOT="C:\Users\cakit\scoop\apps\android-clt\current" `
 -DANDROID_NDK_ROOT="C:\Users\cakit\scoop\apps\android-clt\current\ndk\29.0.13113456" `
 -DANDROID_PLATFORM=android-35
-```bash
-wasm
+```
+
+Works for
+- Android ARM64
+- WASM32 
+- Windows x64
+- Windows ARM64
+- Linux x64
+- Linux ARM64
