@@ -9,5 +9,6 @@ project(
 )
 set(CMAKE_CXX_STANDARD 26)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
+set(QT_HOST_PATH C:/Qt)
 find_package(Qt6 REQUIRED COMPONENTS Quick)
 add_subdirectory(apps)
