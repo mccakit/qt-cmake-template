@@ -21,3 +21,5 @@ Works for
 - Windows ARM64
 - Linux x64
 - Linux ARM64
+- MacOS x64
+- MacOS ARM64
