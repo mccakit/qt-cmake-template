@@ -1,7 +1,7 @@
 find_package(Qt6 REQUIRED COMPONENTS Core Quick WaylandClient)
 qt_add_executable(main main.cpp)
 set_target_properties(main PROPERTIES CXX_SCAN_FOR_MODULES ON)
-target_link_libraries(main PRIVATE Qt6::Quick Qt6::WaylandClient /home/mccakit/dev/qt/static/debian-x64/plugins/platforms/libqwayland.a)
+target_link_libraries(main PRIVATE Qt6::Quick Qt6::WaylandClient ${Qt6_DIR}/../../../plugins/platforms/libqwayland.a)
 if(APPLE)
     set_target_properties(main PROPERTIES MACOSX_BUNDLE TRUE)
 elseif(WIN32)
